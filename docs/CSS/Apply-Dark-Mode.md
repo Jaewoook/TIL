@@ -16,12 +16,12 @@
 }
 ```
 
-브라우저가와 시스템이 prefers-color-scheme media query 를 지원한다면 위 CSS 안에 다크모드 컬러를 추가하면 된다.
+브라우저가와 시스템이 **prefers-color-scheme** media query 를 지원한다면 위 CSS 안에 다크모드 컬러를 추가하면 된다.
 
 ## 컬러 모드 유연하게 적용하기
 
-prefers-color-scheme 관련 내용을 찾아보다가 나름 Best Practice 같은 것을 발견했다.
-바로 <html> 이나 <body> 태그의 class 로 darkmode 같은 class 를 추가하는 것이다.
+**prefers-color-scheme** 관련 내용을 찾아보다가 나름 Best Practice 같은 것을 발견했다.
+바로 `<html>` 이나 `<body>` 태그의 class 로 darkmode 같은 class 를 추가하는 것이다.
 
 ### JavaScript MediaQuery API
 
